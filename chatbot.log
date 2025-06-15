@@ -1,0 +1,130 @@
+2025-06-15 21:42:43,073 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-06-15 21:42:43,364 DEBUG: https://huggingface.co:443 "HEAD /t5-small/resolve/main/spiece.model HTTP/1.1" 200 0
+2025-06-15 21:42:43,417 INFO: Model and tokenizer loaded successfully
+2025-06-15 21:42:43,435 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-15 21:42:43,435 INFO: [33mPress CTRL+C to quit[0m
+2025-06-15 21:42:43,444 INFO:  * Restarting with watchdog (windowsapi)
+2025-06-15 21:42:48,841 DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-06-15 21:42:49,724 DEBUG: https://huggingface.co:443 "HEAD /t5-small/resolve/main/spiece.model HTTP/1.1" 200 0
+2025-06-15 21:42:49,808 INFO: Model and tokenizer loaded successfully
+2025-06-15 21:42:49,820 WARNING:  * Debugger is active!
+2025-06-15 21:42:49,824 INFO:  * Debugger PIN: 142-055-731
+2025-06-15 21:42:49,848 INFO: 127.0.0.1 - - [15/Jun/2025 21:42:49] "GET / HTTP/1.1" 200 -
+2025-06-15 21:42:57,843 DEBUG: Full request: <Request 'http://127.0.0.1:5000/chat' [POST]>
+2025-06-15 21:42:57,844 DEBUG: Request headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 28
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,nl;q=0.8,hi;q=0.7
+
+
+2025-06-15 21:42:57,844 DEBUG: Request JSON: {'message': 'cure for fever'}
+2025-06-15 21:42:57,844 DEBUG: Received user_message: 'cure for fever' (type: <class 'str'>)
+2025-06-15 21:42:57,844 DEBUG: Lowered message: 'cure for fever'
+2025-06-15 21:42:57,844 DEBUG: Words in message: ['cure', 'for', 'fever']
+2025-06-15 21:42:57,844 DEBUG: Cure detected: True (checked 'cure' in words: ['cure', 'for', 'fever'])
+2025-06-15 21:42:57,844 INFO: Detected 'cure' in message (case-insensitive)
+2025-06-15 21:42:57,844 DEBUG: Returning response: 'I Recommend You To Consult A Doctor'
+2025-06-15 21:42:57,845 INFO: 127.0.0.1 - - [15/Jun/2025 21:42:57] "POST /chat HTTP/1.1" 200 -
+2025-06-15 21:43:07,031 DEBUG: Full request: <Request 'http://127.0.0.1:5000/chat' [POST]>
+2025-06-15 21:43:07,031 DEBUG: Request headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 32
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,nl;q=0.8,hi;q=0.7
+
+
+2025-06-15 21:43:07,032 DEBUG: Request JSON: {'message': 'cure for dirrhoea?'}
+2025-06-15 21:43:07,032 DEBUG: Received user_message: 'cure for dirrhoea?' (type: <class 'str'>)
+2025-06-15 21:43:07,032 DEBUG: Lowered message: 'cure for dirrhoea?'
+2025-06-15 21:43:07,032 DEBUG: Words in message: ['cure', 'for', 'dirrhoea?']
+2025-06-15 21:43:07,032 DEBUG: Cure detected: True (checked 'cure' in words: ['cure', 'for', 'dirrhoea?'])
+2025-06-15 21:43:07,032 INFO: Detected 'cure' in message (case-insensitive)
+2025-06-15 21:43:07,032 DEBUG: Returning response: 'I Recommend You To Consult A Doctor'
+2025-06-15 21:43:07,032 INFO: 127.0.0.1 - - [15/Jun/2025 21:43:07] "POST /chat HTTP/1.1" 200 -
+2025-06-15 21:43:23,159 DEBUG: Full request: <Request 'http://127.0.0.1:5000/chat' [POST]>
+2025-06-15 21:43:23,159 DEBUG: Request headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 51
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,nl;q=0.8,hi;q=0.7
+
+
+2025-06-15 21:43:23,160 DEBUG: Request JSON: {'message': 'side effects of corona virus disease?'}
+2025-06-15 21:43:23,160 DEBUG: Received user_message: 'side effects of corona virus disease?' (type: <class 'str'>)
+2025-06-15 21:43:23,160 DEBUG: Lowered message: 'side effects of corona virus disease?'
+2025-06-15 21:43:23,160 DEBUG: Words in message: ['side', 'effects', 'of', 'corona', 'virus', 'disease?']
+2025-06-15 21:43:23,160 DEBUG: Cure detected: False (checked 'cure' in words: ['side', 'effects', 'of', 'corona', 'virus', 'disease?'])
+2025-06-15 21:43:23,160 INFO: No 'cure' detected, calling chatbot
+2025-06-15 21:43:24,223 DEBUG: Chatbot response: common side effects of corona virus disease include soreness at the injection site, fever, and fatigue.
+2025-06-15 21:43:24,223 DEBUG: Returning response: 'common side effects of corona virus disease include soreness at the injection site, fever, and fatigue.'
+2025-06-15 21:43:24,223 INFO: 127.0.0.1 - - [15/Jun/2025 21:43:24] "POST /chat HTTP/1.1" 200 -
+2025-06-15 21:43:36,695 DEBUG: Full request: <Request 'http://127.0.0.1:5000/chat' [POST]>
+2025-06-15 21:43:36,696 DEBUG: Request headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 34
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,nl;q=0.8,hi;q=0.7
+
+
+2025-06-15 21:43:36,696 DEBUG: Request JSON: {'message': 'symptoms of typhoid?'}
+2025-06-15 21:43:36,696 DEBUG: Received user_message: 'symptoms of typhoid?' (type: <class 'str'>)
+2025-06-15 21:43:36,696 DEBUG: Lowered message: 'symptoms of typhoid?'
+2025-06-15 21:43:36,696 DEBUG: Words in message: ['symptoms', 'of', 'typhoid?']
+2025-06-15 21:43:36,696 DEBUG: Cure detected: False (checked 'cure' in words: ['symptoms', 'of', 'typhoid?'])
+2025-06-15 21:43:36,696 INFO: No 'cure' detected, calling chatbot
+2025-06-15 21:43:37,698 DEBUG: Chatbot response: typhoid symptoms include fever, cough, sore throat, body aches, and fatigue.
+2025-06-15 21:43:37,698 DEBUG: Returning response: 'typhoid symptoms include fever, cough, sore throat, body aches, and fatigue.'
+2025-06-15 21:43:37,699 INFO: 127.0.0.1 - - [15/Jun/2025 21:43:37] "POST /chat HTTP/1.1" 200 -
+2025-06-15 21:43:53,657 INFO:  * Detected change in 'e:\\PROJECT\\Medical Assistance\\main.py', reloading
+2025-06-15 21:43:53,657 INFO:  * Detected change in 'e:\\PROJECT\\Medical Assistance\\main.py', reloading
+2025-06-15 21:43:53,658 INFO:  * Detected change in 'e:\\PROJECT\\Medical Assistance\\main.py', reloading
+2025-06-15 21:43:53,816 INFO:  * Detected change in 'e:\\PROJECT\\Medical Assistance\\main.py', reloading
+2025-06-15 21:43:53,818 INFO:  * Detected change in 'e:\\PROJECT\\Medical Assistance\\main.py', reloading
+2025-06-15 21:43:53,819 INFO:  * Detected change in 'e:\\PROJECT\\Medical Assistance\\main.py', reloading
+2025-06-15 21:43:55,394 INFO:  * Restarting with watchdog (windowsapi)
